@@ -170,3 +170,25 @@ void loop() {
                        
     }
 }
+
+
+/*code for ir array
+int s2=2;
+int s4=4;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  pinMode (s2,INPUT);
+  pinMode (s4,INPUT);
+
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  Serial.println(digitalRead (s2));
+  Serial.println(digitalRead (s4));
+  Serial.println(' ');
+
+}*/
